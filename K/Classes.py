@@ -8,7 +8,7 @@ class Employee:
         self.post = post
         self.salary = salary
         Employee.count += 1
-
+#мяу
 
     def display_employee(self):
         return ('Фамилия: {}. Зарплата: {}'.format(self.lastName, self.salary))
